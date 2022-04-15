@@ -2,10 +2,13 @@
    display: flex;
    .home_container{       
         flex: 5;
-        .widgets{
+        .widgets, .charts{
             display: flex;
             padding: 2rem;
             gap: 2rem;
+        }
+        .charts{
+            padding: 0.5rem 2rem;
         }
    }
 }
