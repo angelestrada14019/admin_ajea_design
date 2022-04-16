@@ -12,6 +12,7 @@ import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 import CreditCardIcon from "@mui/icons-material/CreditCard";
 import StorefrontIcon from "@mui/icons-material/Storefront";
 import TimelineIcon from "@mui/icons-material/Timeline";
+import { Link } from "react-router-dom";
 const sidebar = () => {
   return (
     <div className="sidebar">
@@ -23,17 +24,23 @@ const sidebar = () => {
         <ul>
           <p className="title">MAIN</p>
           <li>
-            <DashboardIcon className="icon" />
+            <Link to="/" className="link">
+            <DashboardIcon className="icon"/>         
             <span>Dashboard</span>
+        </Link>
           </li>
           <p className="title">LIST</p>
           <li>
+            <Link to="/users" className="link">
             <PersonOutlineOutlinedIcon className="icon" />
             <span>Users</span>
+        </Link>
           </li>
           <li>
+            <Link to="/products" className="link">
             <StorefrontIcon className="icon" />
             <span>Products</span>
+        </Link>
           </li>
           <li>
             <CreditCardIcon className="icon" />

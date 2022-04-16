@@ -57,13 +57,13 @@
                     margin-top: 1rem;
                     font-size: 1.4rem;
                     .icon{
-                        font-size:small;
-                        &.positive{
-                            color: #00b300;                            
-                        }
-                        &.negative{
-                            color: #ff0000;                            
-                        }
+                        font-size:small;                        
+                    }
+                    &.positive{
+                        color: #00b300;                            
+                    }
+                    &.negative{
+                        color: #ff0000;                            
                     }
                 }
             }

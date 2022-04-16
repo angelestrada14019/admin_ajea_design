@@ -10,5 +10,22 @@
         .charts{
             padding: 0.5rem 2rem;
         }
+        .list_container{
+            padding: 2rem;
+            margin: 2rem;
+        }
+        .list_title{
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+            color: #808080;
+        }
    }
+}
+@media (max-width: 60rem) {
+    .widgets, .charts {
+      flex-direction: column;      
+    }
+    .visibility{
+        display: none;
+    }
 }

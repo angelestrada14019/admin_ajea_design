@@ -59,6 +59,14 @@
 
                 }
             }
+            .transparent{
+                display: none;
+            }
         }
+    }
+}
+@media (max-width: 60rem) {
+    .transparent {
+      display: block !important;    
     }
 }
